@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+.bar{
+	box-shadow:0px 1px 10px 1px #F0F0F0;
+	width:100%;
+	height:50px;
+	padding-left: 20%;
+}
+.drop_a{
+	dispaly:block;
+	height:50px;
+	width:100px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.drop_a:hover,.drop_a:focus{
+	text-decoration: none;
+	color:#fac;
+}
+
+.bar_a{
+	
+	color: #000;
+	height:50px;
+	width:50px;
+	margin-left:5px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+}
+.bar_img{
+	
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	margin-bottom: 4px;
+}
+
+.bar_a:hover {
+	text-decoration:none;
+	color:#fac;
+}
+.title{
+	height:300px;
+	background: #E1E1E1;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.title>img{
+	display:block;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	margin: 0px auto;
+}
+.title p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.title .b{
+	width:100px;
+	margin: 0 auto;
+}
+.fatienum{
+	margin-left:15px;
+	border-right: 1px solid #000;
+	padding-right: 10px;
+	color:#000;
+	float:left;
+}
+.huifunum{
+	margin-left:6px;
+	width:90px;
+	color:#000;
+}
+
+.mytab-title{
+	
+	font-size:14px;
+	height:35px;
+	box-shadow:0px 1px 0px 0px #F0F0F0;
+}
+.p_body{
+	padding: 10px 0 0 10px;
+}
+.lev{
+	font-size:10px;
+	width:20px;
+	height:15px;
+	border-radius:45%;
+	background: #E1E1E1;
+}
+._body{
+	float:left;
+}
+._huifu{
+	padding-top:10px;
+	height:30px;
+}
+._tie{
+	padding-top:10px;
+	height:80px;
+	box-shadow:0px 1px 0px 0px #F0F0F0;
+	
+}
+.p_body ul li a,.p_body ul li span,.mytab a{
+	color: #2F4F4F;
+	
+}
+.p_body ul li a:hover{
+	text-decoration: none;
+}
+.footer{
+	margin-top:20px;
+
+	width:100%;
+	height:300px;
+	background: #393939;
+	
+}

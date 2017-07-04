@@ -1,0 +1,179 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+.tie_content{
+	margin-top: 20px;
+	font-size:17px;
+}
+.bar{
+	box-shadow:0px 1px 10px 1px #F0F0F0;
+	width:100%;
+	height:50px;
+	padding-left: 20%;
+}
+.drop_a{
+	dispaly:block;
+	height:50px;
+	width:100px;
+}
+.drop_a:hover,.drop_a:focus{
+	text-decoration: none;
+	color:#fac;
+}
+
+.bar_a{
+	
+	color: #000;
+	height:50px;
+	width:50px;
+	margin-left:5px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+}
+.bar_img{
+	
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	margin-bottom: 4px;
+}
+.liuyannum{
+	border-right: 1px solid #E1E1E1;
+	padding-right: 10px;
+	color:#959595;
+}
+.liulannum{
+	margin-right: 10px;
+	color:#959595;
+}
+.bar_a:hover {
+	text-decoration:none;
+	color:#fac;
+}
+img{
+	
+	width:100%;
+	height:100%;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.p_title{
+	background: #F5F5F5;
+	font-size: 20px;
+	height:50px;
+	line-height: 50px;
+	padding-left: 2%;
+	
+}
+.herder{
+	width:70px;
+	height:70px;
+	float:left;
+	border-radius:50%;
+}
+.p_body{
+	margin-left:20px;
+}
+.p_body ul li,.l_body ul li{
+	padding-top: 15px;
+	height:100px;
+	
+	
+}
+.p_body ul li a{
+	color: #000;
+	
+}
+.l_body a{
+	color:#333333;
+}
+.liuyan_content{
+	margin-top:13px;
+	line-height: 13px;
+}
+.l_body ul li span,.p_body ul li span{
+	font-size: 14px;
+	color:#959595;
+}
+.l_body a:hover,.p_body ul li a:hover{
+	text-decoration:none;
+}
+._body{
+
+	float:left;
+	width:450px;
+	font-size: 17px;
+	margin-left: 5px;
+}
+
+.input-box{
+	background:#F5F5F5;
+	padding:0;
+	height:345px;
+	margin: 10px 0px;
+}
+._button{
+	width:45px;
+	height:35px;
+	border-radius:0; 
+	background:#E0E1E2;
+	border-radius:4px;
+}
+._button:hover{
+	background: #CACBCD
+}
+._content{
+	resize:none;
+	width:100%;
+	height:300px;
+	border-radius:0;
+	border-top: 1px dashed #DDDDDD;
+	border-bottom: 1px dashed #DDDDDD;
+	border-left: none;
+	border-right: none;
+	background: #EEEEEE;
+	outline:none;
+}
+.lev{
+	display:inline-block;
+	width:50px;
+	height:25px;
+	border: 1px solid #DEDEDE;
+	border-radius:3px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 7px;
+}
+.zan_shouc a{
+	color:#333333;
+}
+.p_title a{
+	color:#333333;
+}
+.p_title a:hover{
+	text-decoration:none;
+}
+.button-group{
+	float:left;
+	margin: 5px 0px 5px 10px;
+}
+.button-group-l{
+	float:left;
+	margin: 5px 10px 5px 0px;
+}
+.footer{
+	margin-top:20px;
+
+	width:100%;
+	height:300px;
+	background: #393939;
+	
+}

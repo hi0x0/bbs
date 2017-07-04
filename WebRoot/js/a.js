@@ -1,0 +1,13 @@
+$(function(){
+	alert("bb");
+	$.ajax({
+		url:"leixing.do",
+		type:"post",
+		success:function(data){
+			alert(data);
+		},
+		error:function(){
+			alert("数据访问失败");
+		}
+	});
+});

@@ -1,0 +1,49 @@
+//创建表  varchar(20) 可以存21个字符（包括汉字）
+
+create table user (user_id int primary key auto_increment,username varchar(20),password varchar(20),headerimg varchar(40),quanxian_id int,createtime datetime);
+
+create table tie (tie_id int primary key auto_increment,user_id int,leibie_id int,title varchar(20),body text,zan int,liulan int,createtime datetime);
+
+create table like_tie (user_id int,tie_id int);
+
+create table liuyan (user_id int,tie_id int,body text,createtime datetime);
+
+create table quanxian (quanxian_id int,body varchar(20));
+
+create table leibie (leibie_id int,body varchar(20));
+
+//添加索引
+
+alter table user add UNIQUE (quanxian_id);
+
+alter table quanxian add UNIQUE (quanxian_id);
+
+alter table tie add UNIQUE (user_id);
+
+alter table tie add UNIQUE (leibie_id);
+
+alter table leibie add UNIQUE (leibie_id);
+
+alter table like_tie add UNIQUE (user_id);
+
+alter table like_tie add UNIQUE (tie_id);
+
+alter table liuyan add UNIQUE (tie_id);
+
+alter table liuyan add UNIQUE (user_id);
+
+//添加外键
+
+alter table user add constraint QX_ID foreign key(quanxian_id) references quanxian(quanxian_id);
+
+alter table tie add constraint T_U_ID foreign key(user_id) references user(user_id);
+
+alter table tie add constraint T_L_ID foreign key(leibie_id) references leibie(leibie_id);
+
+alter table like_tie add constraint L_U_ID foreign key(user_id) references user(user_id);
+
+alter table like_tie add constraint L_T_ID foreign key(tie_id) references tie(tie_id);
+
+alter table liuyan add constraint Y_U_ID foreign key(user_id) references user(user_id);
+
+alter table liuyan add constraint  Y_T_ID foreign key(tie_id) references tie(tie_id);
